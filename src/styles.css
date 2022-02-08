@@ -1,0 +1,200 @@
+body {
+  margin: auto;
+  font-family: sans-serif;
+  background: linear-gradient(#f6c555, #fdad2a);
+  max-width: 400px;
+
+  height: 100vh;
+  height: -webkit-fill-available;
+  height: fill-available;
+
+  position: relative;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+html {
+  height: -webkit-fill-available;
+  height: fill-available;
+}
+
+#header {
+  width: 100%;
+}
+
+#bottom {
+  background-color: #0ca963;
+  border: 2px solid rgb(0, 0, 0);
+  position: absolute;
+  height: 80px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#bottom button {
+  background-color: #acc197;
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  font-size: 30px;
+
+  padding: 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 3px;
+}
+
+#bottom button:active {
+  border: 2px solid rgb(0, 0, 0);
+  outline: 0;
+  background-color: #faa629;
+  background-size: 100%;
+  transition: background 0s transform 0.1s;
+  transform: scale(1.025);
+}
+
+#library {
+  width: 345px;
+  background-color: #dfa744;
+  border: 2px solid rgb(0, 0, 0);
+  height: 40px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 5%;
+  border-radius: 8px;
+  font-size: 27px;
+}
+
+#library：hover {
+  background-color: #0ca963;
+}
+
+#scope {
+  width: 8%;
+  margin-top: 6px;
+  margin-left: 90px;
+}
+
+#red {
+  display: flex;
+}
+
+#red button {
+  width: 70px;
+  background-color: #e4eaff;
+  border: 2px solid rgb(0, 0, 0);
+  height: 70px;
+  margin: 0%;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 3px;
+  margin-left: 20px;
+}
+
+#red button :active {
+  background-size: 100%;
+  transition: background 0s transform 0.1s;
+  transform: scale(1.025);
+  background-color: #ff3720;
+}
+
+#game {
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#bigred {
+  width: 160px;
+  background-color: #ff3720;
+  border: 2px solid rgb(0, 0, 0);
+  height: 160px;
+  margin: 0%;
+  margin-top: 10px;
+  margin-left: 23px;
+  border-radius: 8px;
+  box-shadow: 2px 3px;
+}
+#bigred:hover {
+  background-color: #3789f7;
+}
+
+#word2 {
+  margin-left: 47px;
+  margin-top: 16px;
+  font-size: 19px;
+}
+
+#calender {
+  width: 140px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#line2 {
+  display: flex;
+}
+
+#biggreen {
+  width: 160px;
+  background: linear-gradient(#8dc772, #cea693);
+  border: 2px solid rgb(0, 0, 0);
+  height: 160px;
+  margin: 0%;
+  margin-top: 35px;
+  margin-right: 9px;
+  margin-left: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 3px;
+}
+
+#line2 button {
+  width: 70px;
+  background-color: #e73ac9;
+  border: 2px solid rgb(0, 0, 0);
+  height: 70px;
+  margin: 0%;
+  margin-top: 35px;
+  margin-left: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 3px;
+}
+
+#music {
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+#lock {
+  width: 35px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+#name2 {
+  margin-left: 75px;
+  margin-top: 5px;
+  font-size: 19px;
+}
+
+#dot {
+  width: 30px;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+iframe {
+  display: none;
+}
